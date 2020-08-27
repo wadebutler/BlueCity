@@ -1,0 +1,34 @@
+.faq {
+    background: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: 0.2s;
+
+    .faqQuestion {
+        padding: 10px;
+    }
+
+    .faqAnswer {
+        opacity: 0;
+        max-height: 0;
+        overflow: hidden;
+        padding: 10px;
+        transition: 0.4s;
+    }
+}
+
+.open {
+    padding-bottom: 10px;
+
+    .faqAnswer {
+        max-height: 1000px;
+        opacity: 1;
+    }
+}
+
+main h2 {
+    color: white;
+    text-align: center;
+    padding: 45px 0;
+}

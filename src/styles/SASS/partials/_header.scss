@@ -1,0 +1,18 @@
+header {
+    text-align: center;
+    color: white;
+    // 27.5, 51, 70.6
+    background: linear-gradient(180deg, rgba(27.5, 51, 70.6, 0.4) 0%, rgba(27.5, 51, 70.6, 0.8) 100%), 
+    url(../Assets/city.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+        padding-top: 150px;
+    }
+
+    h2 {
+        padding-bottom: 150px;
+    }
+}
